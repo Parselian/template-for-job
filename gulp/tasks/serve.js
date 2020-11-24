@@ -2,11 +2,11 @@ module.exports = () => {
   $.gulp.task('serve', () => {
     $.browserSync.init({
       proxy: {
-        target: "template-for-job/"
+        target: "./dist/"
       }
     });
 
     $.gulp.watch(['sass']);
-    $.gulp.watch('./*.{html,php}').on('change', $.browserSync.reload);
+    $.gulp.watch('./dist/*.{html,php}').on('change', $.browserSync.reload);
   });
 };

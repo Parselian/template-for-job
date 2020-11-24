@@ -1,8 +1,8 @@
 module.exports = () => {
   $.gulp.task('sass', () => {
-    return $.gulp.src('scss/**/*.scss')
+    return $.gulp.src('./dist/scss/**/*.scss')
       .pipe($.sass())
-      .pipe($.gulp.dest('./css'))
+      .pipe($.gulp.dest('./dist/css'))
       .pipe($.browserSync.stream());
   });
 };

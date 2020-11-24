@@ -1,6 +1,6 @@
 module.exports = () => {
   $.gulp.task('img', () => {
-    return $.gulp.src('images/**/*.{png,webp,jpg}')
+    return $.gulp.src('./dist/images/**/*.{png,webp,jpg}')
       .pipe($.gp.imagemin([
         $.gp.imagemin.mozjpeg({
           quality: 60,
