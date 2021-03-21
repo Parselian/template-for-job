@@ -1,0 +1,26 @@
+[
+  {
+    "author": "John Doe",
+    "title": "Какой-то заголовок какой-то статьи",
+    "date": "14.03.2021",
+    "url": "https://yandex.ru"
+  },
+  {
+    "author": "John Doe",
+    "title": "Какой-то заголовок какой-то статьи",
+    "date": "14.03.2021",
+    "url": "https://google.com"
+  },
+  {
+    "author": "John Doe",
+    "title": "Какой-то заголовок какой-то статьи",
+    "date": "14.03.2021",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "author": "John Doe",
+    "title": "Какой-то заголовок какой-то статьи",
+    "date": "14.03.2021",
+    "url": "https://onlyfans.com"
+  }
+]
